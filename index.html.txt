@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Göz-Sağ CMS Aktif</title>
+</head>
+<body>
+    <h1>GÖZ SAĞLIĞINI KORU (GÖZ-SAĞ) CMS</h1>
+    <p>Bu site mobil uygulama için ayar ve görsel veri sağlamaktadır. Lütfen doğrudan JSON dosyasına erişin.</p>
+    <p>JSON Linki: <a href="./api/vision_config.json">/api/vision_config.json</a></p>
+</body>
+</html>
