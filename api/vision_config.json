@@ -1,0 +1,40 @@
+{
+  "last_updated": "2025-11-17T10:00:00Z",
+  "calibration_settings": {
+    "min_distance_cm": 290,
+    "max_distance_cm": 310,
+    "head_movement_tolerance": 5,
+    "fallback_timeout_sec": 8
+  },
+  "exercise_cycles": [
+    {
+      "id": 1,
+      "icon_key": "rotate_cycle",
+      "duration_sec": 60,
+      "rest_sec": 15
+    }
+  ],
+  "test_charts": [
+    {
+      "id": 101,
+      "type": "snellen_ico",
+      "icon_key": "magnify_measure",
+      "rows": [
+        {"size_mm": 10, "icon_url": "/assets/charts/ico_house.webp"},
+        {"size_mm": 5, "icon_key": "/assets/charts/ico_car.webp"}
+      ]
+    },
+    {
+      "id": 102,
+      "type": "ishihara",
+      "icon_key": "no_color_rainbow",
+      "plates": [
+        {"url": "/assets/charts/ishi_plate1.webp", "answer": 12}
+      ]
+    }
+  ],
+  "ad_slots": {
+    "rest_break": "ca-app-pub-XXX/rest-slot",
+    "result_page": "ca-app-pub-XXX/result-slot"
+  }
+}
